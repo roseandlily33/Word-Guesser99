@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --darkBrown: #4c1c0b;
+    --taupe: #936450;
+    --mustard: #f39a01;
+    --cream: #fcd5a2;
+    --beige: #e1a25d;
+    --red: #a51409;
+    --font: font-family: 'Solitreo', cursive, sans-serif;
+}
+
+body{
+    background-color: var(--beige);
+}
+.container{
+    background-color: var(--taupe);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 80%;
+    margin: 5% auto;
+    border-radius: 25px;
+    font-family: var(--font);
+}
+#top{
+    color: var(--cream);
+}
+h1{
+    color: var(--red);
+    font-family: var(--font);
+    
+}
+p{
+    color: var(--mustard);
+}
+#bottom{
+    color: var(--cream);
+}
+h2{
+    color: var(--mustard);
+
+}
+timer{
+    color: var(--mustard);
+}
+button{
+    padding: 1em;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--darkBrown);
+    color: var(--cream);
+}
+
